@@ -59,7 +59,7 @@ for i in range(4):
 result = cv2.copyMakeBorder(result, 40, 40, 100, 40, cv2.BORDER_CONSTANT, value=(255, 0, 0))
 
 # save the frame to an image file in the OutputImages folder
-cv2.imwrite('OutputImages/namePhotoBooth.jpg', result)
+cv2.imwrite('OutputImages/L4namePhotoBooth.jpg', result)
 
 # Show the result image
 cv2.imshow("Result", result)
